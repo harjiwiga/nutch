@@ -16,14 +16,14 @@
  */
 package org.apache.nutch.webui.client;
 
-import static org.junit.Assert.assertNotSame;
-import static org.junit.Assert.assertSame;
-
 import org.apache.nutch.webui.model.NutchInstance;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.runners.MockitoJUnitRunner;
+
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertSame;
 
 @RunWith(MockitoJUnitRunner.class)
 public class TestNutchClientFactory {
