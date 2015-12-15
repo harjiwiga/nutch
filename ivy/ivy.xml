@@ -32,6 +32,8 @@
   </publications>
 
   <dependencies>
+
+    <!--<dependency org="org.apache.gora" name="gora-hbase" rev="0.3" conf="*->default" />-->
     <dependency org="org.apache.solr" name="solr-solrj" rev="4.6.0"
       conf="*->default" />
     <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.6.1"
@@ -112,9 +114,9 @@
     <dependency org="mysql" name="mysql-connector-java" rev="5.1.18" conf="*->default"/> 
     -->
     <!-- Uncomment this to use HBase as Gora backend. -->
-    <!--     
-    <dependency org="org.apache.gora" name="gora-hbase" rev="0.6.1" conf="*->default" /> 
-    -->
+
+    <dependency org="org.apache.gora" name="gora-hbase" rev="0.6.1" conf="*->default" />
+
     <!-- Uncomment this to use Accumulo as Gora backend. -->
     <!--
     <dependency org="org.apache.gora" name="gora-accumulo" rev="0.6.1" conf="*->default" />
