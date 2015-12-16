@@ -1304,7 +1304,8 @@
 
 <property>
   <name>storage.data.store.class</name>
-  <value>org.apache.gora.memory.store.MemStore</value>
+  <value>org.apache.gora.hbase.store.HBaseStore</value>
+  <!--<value>org.apache.gora.memory.store.MemStore</value>-->
   <description>The Gora DataStore class for storing and retrieving data.
    Currently the following stores are available:
   

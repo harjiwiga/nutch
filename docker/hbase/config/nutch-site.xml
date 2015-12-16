@@ -16,10 +16,15 @@
   limitations under the License.
 -->
 <configuration>
+  <!--<property>-->
+    <!--<name>http.agent.name</name>-->
+    <!--<value>your-crawler-name</value>-->
+  <!--</property>-->
   <property>
     <name>http.agent.name</name>
-    <value>your-crawler-name</value>
+    <value>Nutch-Harji</value> <!-- this can be changed to something more sane if you like -->
   </property>
+
   <property>
     <name>storage.data.store.class</name>
     <value>org.apache.gora.hbase.store.HBaseStore</value>

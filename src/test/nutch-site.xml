@@ -4,6 +4,13 @@
 
 <configuration>
 
+
+  <property>
+    <name>storage.data.store.class</name>
+    <value>org.apache.gora.hbase.store.HBaseStore</value>
+    <description>Default class for storing data</description>
+  </property>
+
   <property>
     <name>http.agent.name</name>
     <value>Nutch-Harji</value> <!-- this can be changed to something more sane if you like -->
@@ -11,7 +18,7 @@
 
   <property>
     <name>plugin.folders</name>
-    <value>./src/plugin</value>
+    <value>src/plugin</value>
     <description>Directories where nutch plugins are located.  Each
       element may be a relative or absolute path.  If absolute, it is used
       as is.  If relative, it is searched for on the classpath.</description>
@@ -30,7 +37,7 @@
   <!--directory -->
   <property>
     <name>searcher.dir</name>
-    <value>/nutch/urls</value>
+    <value>urls</value>
   </property>
 
 
@@ -54,10 +61,10 @@
   <description>TCP port used during junit testing.</description>
 </property>
 
-<property>
-  <name>storage.data.store.class</name>
-  <value>org.apache.gora.memory.store.MemStore</value>
-  <description>Default in-memory datastore class for temp test data.</description>
-</property>
+<!--<property>-->
+  <!--<name>storage.data.store.class</name>-->
+  <!--<value>org.apache.gora.memory.store.MemStore</value>-->
+  <!--<description>Default in-memory datastore class for temp test data.</description>-->
+<!--</property>-->
 
 </configuration>
