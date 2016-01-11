@@ -5,3 +5,10 @@ conf/slaves
 build/
 runtime/
 logs/
+
+.classpath
+.idea/
+.project
+nutch.eml
+nutch.iml
+
